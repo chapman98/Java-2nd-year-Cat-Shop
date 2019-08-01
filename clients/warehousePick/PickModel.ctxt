@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PickModel
+comment0.text=\r\n\ Implements\ the\ Model\ of\ the\ warehouse\ pick\ client\r\n\ @author\ \ Mike\ Smith\ University\ of\ Brighton\r\n\ @version\ 1.0\r\n
+comment1.params=mf
+comment1.target=PickModel(middle.MiddleFactory)
+comment1.text=\r\n\ Construct\ the\ model\ of\ the\ warehouse\ pick\ client\r\n\ @param\ mf\ The\ factory\ to\ create\ the\ connection\ objects\r\n
+comment2.params=
+comment2.target=void\ checkForNewOrder()
+comment2.text=\r\n\ Method\ run\ in\ a\ separate\ thread\ to\ check\ if\ there\r\n\ is\ a\ new\ order\ waiting\ to\ be\ picked\ and\ we\ have\r\n\ nothing\ to\ do.\r\n
+comment3.params=
+comment3.target=catalogue.Basket\ getBasket()
+comment3.text=\r\n\ Return\ the\ Basket\ of\ products\ that\ are\ to\ be\ picked\r\n\ @return\ the\ basket\r\n
+comment4.params=
+comment4.target=void\ doPick()
+comment4.text=\r\n\ Process\ a\ picked\ Order\r\n
+numComments=5

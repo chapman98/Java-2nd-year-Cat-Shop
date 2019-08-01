@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LocalMiddleFactory
+comment0.text=\r\n\ Provide\ access\ to\ middle\ tier\ components.\r\n\ Now\ only\ one\ instance\ of\ each\ middle\ tier\ object\ is\ created\r\n
+comment1.params=
+comment1.target=StockReader\ makeStockReader()
+comment1.text=\r\n\ Return\ an\ object\ to\ access\ the\ database\ for\ read\ only\ access.\r\n\ All\ users\ share\ this\ same\ object.\r\n
+comment2.params=
+comment2.target=StockReadWriter\ makeStockReadWriter()
+comment2.text=\r\n\ Return\ an\ object\ to\ access\ the\ database\ for\ read/write\ access.\r\n\ All\ users\ share\ this\ same\ object.\r\n
+comment3.params=
+comment3.target=OrderProcessing\ makeOrderProcessing()
+comment3.text=\r\n\ Return\ an\ object\ to\ access\ the\ order\ processing\ system.\r\n\ All\ users\ share\ this\ same\ object.\r\n
+numComments=4

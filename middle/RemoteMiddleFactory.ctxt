@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=RemoteMiddleFactory
+comment0.text=\r\n\ Provide\ access\ to\ middle\ tier\ components.\r\n
+comment1.params=url
+comment1.target=void\ setStockRInfo(java.lang.String)
+comment2.params=url
+comment2.target=void\ setStockRWInfo(java.lang.String)
+comment3.params=url
+comment3.target=void\ setOrderInfo(java.lang.String)
+comment4.params=
+comment4.target=StockReader\ makeStockReader()
+comment4.text=\r\n\ Return\ an\ object\ to\ access\ the\ database\ for\ read\ only\ access.\r\n\ Access\ is\ via\ RMI\r\n
+comment5.params=
+comment5.target=StockReadWriter\ makeStockReadWriter()
+comment5.text=\r\n\ Return\ an\ object\ to\ access\ the\ database\ for\ read/write\ access.\r\n\ Access\ is\ via\ RMI\r\n
+comment6.params=
+comment6.target=OrderProcessing\ makeOrderProcessing()
+comment6.text=\r\n\ Return\ an\ object\ to\ access\ the\ order\ processing\ system.\r\n\ Access\ is\ via\ RMI\r\n
+numComments=7

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Jan 18 11:19:59 GMT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0168-60b0-622b-000000b278f0 
+on database directory C:\Users\HPLaptop\Desktop\desktop files\uni\catshop\catshop.db with class loader sun.misc.Launcher$AppClassLoader@b4aac2 
+Loaded from file:/C:/Program%20Files%20(x86)/BlueJ/jdk/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_144-b01
+user.dir=C:\Users\HPLaptop\Desktop\desktop files\uni\catshop
+os.name=Windows 10
+os.arch=x86
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

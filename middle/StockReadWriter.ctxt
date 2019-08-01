@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=StockReadWriter
+comment0.text=\r\n\ Interface\ for\ read/write\ access\ to\ the\ stock\ list.\r\n\ @author\ \ Mike\ Smith\ University\ of\ Brighton\r\n\ @version\ 2.0\r\n
+comment1.params=pNum\ amount
+comment1.target=boolean\ buyStock(java.lang.String,\ int)
+comment1.text=\r\n\ Customer\ buys\ stock,\r\n\ stock\ level\ is\ thus\ decremented\ by\ amount\ bought.\r\n\ @param\ pNum\ Product\ number\r\n\ @param\ amount\ Quantity\ of\ product\r\n\ @return\ StockNumber,\ Description,\ Price,\ Quantity\r\n\ @throws\ middle.StockException\ if\ issue\r\n
+comment2.params=pNum\ amount
+comment2.target=void\ addStock(java.lang.String,\ int)
+comment2.text=\r\n\ Adds\ stock\ (Restocks)\ to\ store.\r\n\ @param\ pNum\ Product\ number\r\n\ @param\ amount\ Quantity\ of\ product\r\n\ @throws\ middle.StockException\ if\ issue\r\n
+comment3.params=detail
+comment3.target=void\ modifyStock(catalogue.Product)
+comment3.text=\r\n\ Modifies\ Stock\ details\ for\ a\ given\ product\ number.\r\n\ Information\ modified\:\ Description,\ Price\r\n\ @param\ detail\ Replace\ with\ this\ version\ of\ product\r\n\ @throws\ middle.StockException\ if\ issue\r\n
+numComments=4

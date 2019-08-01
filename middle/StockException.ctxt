@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=StockException
+comment0.text=\r\n\ Exception\ throw\ if\ there\ is\ an\ error\ in\ accessing\ the\ stock\ list\r\n\ @author\ \ Mike\ Smith\ University\ of\ Brighton\r\n\ @version\ 2.0\r\n
+comment1.params=s
+comment1.target=StockException(java.lang.String)
+numComments=2

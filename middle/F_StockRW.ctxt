@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=F_StockRW
+comment0.text=\r\n\ Setup\ connection\ to\ the\ middle\ tier\r\n
+comment1.params=url
+comment1.target=F_StockRW(java.lang.String)
+comment2.params=
+comment2.target=void\ connect()
+comment3.params=number\ amount
+comment3.target=boolean\ buyStock(java.lang.String,\ int)
+comment3.text=\r\n\ Buys\ stock\ and\ hence\ decrements\ number\ in\ stock\ list\r\n\ @return\ StockNumber,\ Description,\ Price,\ Quantity\r\n\ @throws\ StockException\ if\ remote\ exception\r\n
+comment4.params=number\ amount
+comment4.target=void\ addStock(java.lang.String,\ int)
+comment4.text=\r\n\ Adds\ (Restocks)\ stock\ to\ the\ product\ list\r\n\ @param\ number\ Stock\ number\r\n\ @param\ amount\ of\ stock\r\n\ @throws\ StockException\ if\ remote\ exception\r\n
+comment5.params=detail
+comment5.target=void\ modifyStock(catalogue.Product)
+comment5.text=\r\n\ Modifies\ Stock\ details\ for\ a\ given\ product\ number.\r\n\ Information\ modified\:\ Description,\ Price\r\n\ @param\ detail\ Stock\ details\ to\ be\ modified\r\n\ @throws\ StockException\ if\ remote\ exception\r\n
+numComments=6

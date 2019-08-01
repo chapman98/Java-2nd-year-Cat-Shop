@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=F_Order
+comment0.text=\r\n\ Facade\ for\ the\ order\ processing\ handling\ which\ is\ implemented\ on\ the\ middle\ tier.\r\n\ This\ code\ is\ incomplete\r\n\ @author\ \ Mike\ Smith\ University\ of\ Brighton\r\n\ @version\ 2.0\r\n
+comment1.params=url
+comment1.target=F_Order(java.lang.String)
+comment2.params=
+comment2.target=void\ connect()
+comment3.params=bought
+comment3.target=void\ newOrder(catalogue.Basket)
+comment4.params=
+comment4.target=int\ uniqueNumber()
+comment5.params=
+comment5.target=catalogue.Basket\ getOrderToPick()
+comment5.text=\r\n\ Returns\ an\ order\ to\ pick\ from\ the\ warehouse\r\n\ if\ no\ order\ then\ returns\ null.\r\n\ @return\ An\ order\ to\ pick\r\n
+comment6.params=orderNum
+comment6.target=boolean\ informOrderPicked(int)
+comment6.text=\r\n\ Informs\ the\ order\ processing\ system\ that\ the\ order\ has\ been\r\n\ picked\ and\ the\ products\ are\ now\ on\ the\ conveyor\ belt\ to\r\n\ the\ shop\ floor.\r\n
+comment7.params=orderNum
+comment7.target=boolean\ informOrderCollected(int)
+comment7.text=\r\n\ Informs\ the\ order\ processing\ system\ that\ the\ order\ has\ been\r\n\ collected\ by\ the\ customer\r\n
+comment8.params=
+comment8.target=java.util.Map\ getOrderState()
+comment8.text=\r\n\ Returns\ information\ about\ all\ orders\ in\ the\ order\ processing\ system\r\n
+numComments=9

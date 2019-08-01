@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RemoteStockRW_I
+comment0.text=\r\n\ Defines\ the\ RMI\ interface\ for\ read/write\ access\ to\ the\ stock\ object.\r\n\ @author\ \ Mike\ Smith\ University\ of\ Brighton\r\n\ @version\ 2.0\r\n
+comment1.params=number\ amount
+comment1.target=boolean\ buyStock(java.lang.String,\ int)
+comment2.params=number\ amount
+comment2.target=void\ addStock(java.lang.String,\ int)
+comment3.params=detail
+comment3.target=void\ modifyStock(catalogue.Product)
+numComments=4
